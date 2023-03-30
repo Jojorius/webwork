@@ -6,6 +6,52 @@ html,body{
     font-family: 'Titan One', cursive;
 }
 
-.navbar{
-    
+.title {
+    display: flex;
+    justify-content: center;
+
 }
+
+.panels{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+     justify-content: space-between;
+}
+
+.panel{
+
+    height: 70%;
+    flex:1;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition : flex .7s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.panel:hover{
+    flex:5;
+}
+.panel:hover>.titreJeu{
+    opacity: 100%;
+ }
+
+
+
+ .inklink-1 {
+    background-image: url("../img/inklink1.jpg");
+ }
+
+ .inklink-2 {
+    background-image: url("../img/inklink2.jpg");
+ }
+
+ .inklink-3 {
+    background-image: url("../img/inklink3.jpg");
+ }
