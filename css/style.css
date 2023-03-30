@@ -21,7 +21,7 @@ html,body{
 
 .panel{
 
-    height: 70%;
+    height: 100%;
     flex:1;
 
     background-position: center;
@@ -36,31 +36,14 @@ html,body{
 }
 
 .panel:hover{
-    flex:5;
+    flex:2;
+    background-color: rgba(254, 22, 22, 0.187);
+    border-radius: 5vh;
 }
 
 
- .inklink-1 {
-    background-image: url("../img/inklink1.jpg");
+
+img{
+    max-width: 75%;
+    max-height: 75%;
  }
-
- .inklink-2 {
-    background-image: url("../img/inklink2.jpg");
- }
-
- .inklink-3 {
-    background-image: url("../img/inklink3.jpg");
- }
-
- .card {
-    background-image: url('https://picsum.photos/id/1000/800/500');
-    background-size: cover;
-    background-position: center;
-}
-
-.card-body {
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 200px;
-}
