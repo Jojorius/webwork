@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Titan One', cursive;
+    background-image: url(../img/splatoon.png);
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(224, 196, 255, 0.525);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+
+}
+
+.panels{
+    height: 90vh;
+    width: 90vw;
+    display:flex;
+    justify-content: space-around;
+}
+
+.panel{
+
+    height: 100%;
+    flex:1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition : flex .8s ease-in-out;
+
+
+
+}
+
+.panel:hover{
+    flex:2;
+    background-color: rgba(254, 22, 22, 0.187);
+    border-radius: 5vh;
+}
+
+
+
+img{
+    max-width: 50vh;
+    max-height: 50vw;
+ }
