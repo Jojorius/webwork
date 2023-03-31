@@ -4,6 +4,7 @@ html,body{
     padding: 0;
     margin: 0;
     font-family: 'Titan One', cursive;
+    background-image: url(../img/splatoon.png);
 }
 
 .title {
@@ -24,14 +25,16 @@ html,body{
     height: 100%;
     flex:1;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     transition : flex .8s ease-in-out;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 
 }
 
@@ -44,6 +47,7 @@ html,body{
 
 
 img{
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 50vh;
+    max-height: 50vw;
  }
+ 
