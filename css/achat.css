@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Titan One', cursive;
+    background-image: url(../img/splatoon.png);
+    color: white;
+}
+
+.navbar{
+    background-color: rgba(78, 80, 82, 0.6);
+}
+
+.buyCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10rem;
+
+}
