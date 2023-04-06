@@ -6,6 +6,7 @@ html,body{
     font-family: 'Titan One', cursive;
     background-image: url(../img/splatoon.png);
     color: white;
+    user-select: none;
 }
 
 .navbar{
@@ -17,5 +18,4 @@ html,body{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 10rem;
-
 }
