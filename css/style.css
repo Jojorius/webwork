@@ -6,33 +6,21 @@ html,body{
     font-family: 'Titan One', cursive;
     background-image: url(../img/splatoon.png);
     color: white;
+    user-select: none;
 }
 
 .navbar{
     background-color: rgba(78, 80, 82, 0.6);
 }
 
-
-
-
-
-.carousel .carousel-item .carousel-caption .carouselText h2{
+h2{
     color: white;
-    text-shadow: 1px 1px 2px pink;
+    text-shadow: 1px 1px 2px gray;
     margin-bottom: 50%;
     scale: 3;
 }
 
-
-
-
-.titleSolo{
-    font-size: 5rem;
-    display: flex;
-    justify-content: center;
-}
-
-.titleMulti{
+.titleSolo, .titleMulti{
     font-size: 5rem;
     display: flex;
     justify-content: center;
@@ -41,10 +29,8 @@ html,body{
 .soloStory{
     font-size: 1.5rem;
     background-color: rgba(87, 82, 82, 0.425);
+    text-align: center;
 }
-
-
-
 
 .trailer-box{
     align-items: center;

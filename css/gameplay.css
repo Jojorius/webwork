@@ -6,8 +6,41 @@ html,body{
     font-family: 'Titan One', cursive;
     background-image: url(../img/splatoon.png);
     color: white;
+    user-select: none;
 }
 
 .navbar{
     background-color: rgba(78, 80, 82, 0.6);
+}
+
+
+.cardPanel {
+    margin: 0 auto;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+
+.splatCard:hover{
+    transform: scale(1.15);
+}
+
+.splatCard {
+    padding: 0;
+    text-align: center;
+    transition: all 0.5s;
+    background-color: rgba(36, 36, 36, 0.514);
+}
+
+.armesTitre{
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.armesText{
+    font-size: 1.5rem;
+    background-color: rgba(87, 82, 82, 0.425);
+    text-align: center;
 }
